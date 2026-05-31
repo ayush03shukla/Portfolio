@@ -33,21 +33,47 @@ header {
   background: #1d3557;
   color: #fff;
   padding: 45px 20px;
-  text-align: center;
 }
 
-header h1 {
+.header-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-photo-container {
+  flex-shrink: 0;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.header-text {
+  text-align: left;
+}
+
+.header-text h1 {
   margin: 0;
   font-size: 42px;
   letter-spacing: 0.5px;
 }
 
-header p {
+.header-text p {
   margin: 12px 0 20px;
   font-size: 18px;
 }
 
-header a {
+.header-text a {
   display: inline-block;
   margin-top: 10px;
   padding: 11px 22px;
@@ -58,7 +84,7 @@ header a {
   font-weight: bold;
 }
 
-header a:hover {
+.header-text a:hover {
   background: #d62839;
 }
 
