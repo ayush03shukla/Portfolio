@@ -627,3 +627,21 @@ footer {
   align-items: center;
   justify-content: center;
 }
+.page-header {
+  background: #1d3557;
+  color: #fff;
+  padding: 45px 20px;
+  text-align: center;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #fff;
+}
+
+.page-header p {
+  margin: 12px 0 0;
+  font-size: 18px;
+  color: #fff;
+}
