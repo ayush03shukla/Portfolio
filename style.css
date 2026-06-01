@@ -606,3 +606,24 @@ footer {
     max-height: 52px !important;
   }
 }
+.org-logo-pdf {
+  width: 64px !important;
+  height: 64px !important;
+  max-width: 64px !important;
+  max-height: 64px !important;
+  border: none !important;
+  overflow: hidden !important;
+  display: block;
+  pointer-events: none;
+}
+
+.logo-box {
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  max-width: 70px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
