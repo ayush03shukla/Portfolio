@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projects | Ayush Shukla</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="page-header">
+    <h1>Projects</h1>
+    <p>Selected research and academic projects</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="experience.html">Experience</a>
+    <a href="publications.html">Publications</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Research Projects</h2>
+
+    <div id="project-fod" class="project">
+      <h3>Low-Rank and Sparse FOD Detection with 77 GHz mmWave Radar</h3>
+
+      <p>
+        Developed a radar signal processing framework for detecting low-RCS
+        foreign object debris on runway-like surfaces using TI AWR1843BOOST
+        FMCW radar data.
+      </p>
+
+      <ul>
+        <li>
+          Worked on 77 GHz FMCW radar-based foreign object debris detection for
+          airport runway safety.
+        </li>
+        <li>
+          Developed signal-processing pipelines for low-RCS target detection in
+          ground clutter.
+        </li>
+        <li>
+          Implemented BPM-MIMO processing, range-angle processing, background
+          subtraction, radar calibration, and detection map generation.
+        </li>
+        <li>
+          Proposed a low-rank and sparse decomposition approach solved using ADMM
+          to separate structured ground clutter from sparse FOD targets.
+        </li>
+        <li>
+          Applied OS-CFAR detection on reconstructed sparse radar maps for final
+          target localization.
+        </li>
+        <li>
+          Conducted RF anechoic chamber and real-world runway measurements.
+        </li>
+        <li>
+          Extending the framework toward learning-based unfolded methods for
+          more robust radar sensing.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Tools and methods:</strong> MATLAB, FMCW radar, TI AWR1843BOOST,
+        BPM-MIMO, range-angle processing, ADMM, low-rank and sparse decomposition,
+        OS-CFAR.
+      </p>
+
+      <p>
+        <a href="publications.html#radarconf2026">Related publication</a>
+        |
+        <a href="experience.html#iiitd">Related experience</a>
+        |
+        <a href="index.html#contact">Discuss this work</a>
+      </p>
+    </div>
+
+    <div id="project-emc" class="project">
+      <h3>Surrogate Modelling for EMI Filter Insertion Loss</h3>
+
+      <p>
+        Developed and benchmarked surrogate modelling workflows for estimating
+        EMI filter insertion loss across frequency, with emphasis on model
+        accuracy, training cost, resonance-heavy regions, and EMC-aware design.
+      </p>
+
+      <ul>
+        <li>
+          Developed surrogate models using Kriging, Gaussian Processes,
+          Polynomial Chaos Expansion, Polynomial Chaos Kriging, and Wideband Kriging.
+        </li>
+        <li>
+          Used uncertainty quantification and multi-objective optimization to
+          analyze trade-offs between model accuracy and training cost.
+        </li>
+        <li>
+          Implemented Wideband Kriging in MATLAB, achieving NRMSE around 4.7%
+          across 62 frequency samples.
+        </li>
+        <li>
+          Reduced normalized prediction error from 5.25% to 3.39% and reduced
+          training time by 33% through algorithm enhancements.
+        </li>
+        <li>
+          Benchmarked ANSYS OptisLang DIM-GP workflows for high-fidelity modelling
+          in resonance-heavy regions.
+        </li>
+        <li>
+          Implemented Feature Selective Validation in Python using amplitude,
+          feature, and global difference measures across 6000-point signals.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Tools and methods:</strong> Python, MATLAB, UQLab, ANSYS OptisLang,
+        CST Studio, Kriging, Gaussian Processes, PCE, PCK, Wideband Kriging,
+        Feature Selective Validation.
+      </p>
+
+      <p>
+        <a href="publications.html#edaps2023">Related publication</a>
+        |
+        <a href="experience.html#tugraz">TU Graz experience</a>
+        |
+        <a href="experience.html#iisc">IISc experience</a>
+      </p>
+    </div>
+
+    <div id="project-antenna" class="project">
+      <h3>Flexible UWB Antenna for WBAN Applications</h3>
+
+      <p>
+        Designed and simulated a flexible ultra-wideband antenna for wireless
+        body area network applications using ANSYS HFSS.
+      </p>
+
+      <ul>
+        <li>
+          Designed a flexible UWB antenna operating from 2.48 GHz to 11.91 GHz.
+        </li>
+        <li>
+          Achieved a peak gain of 4.84 dB at 7.75 GHz.
+        </li>
+        <li>
+          Enhanced bandwidth and radiation characteristics through parametric
+          analysis, cuts, and ground-plane modification.
+        </li>
+        <li>
+          Validated mechanical robustness through bending simulations with
+          negligible impact on S11 and antenna gain.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Tools and methods:</strong> ANSYS HFSS, UWB antenna design,
+        wearable antennas, WBAN, RF simulation, bending analysis.
+      </p>
+
+      <p>
+        <a href="experience.html#mit">Related experience</a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Academic Projects</h2>
+
+    <div id="project-5g" class="project">
+      <h3>Review Report – Emerging Trends in 5G and Beyond</h3>
+
+      <p>
+        Co-authored a technical review exploring the evolution from 5G to 6G,
+        focusing on terahertz communication, intelligent antennas, beamforming,
+        and energy-efficient architectures.
+      </p>
+
+      <ul>
+        <li>
+          Reviewed key trends in terahertz communication and intelligent antenna
+          systems.
+        </li>
+        <li>
+          Analysed design challenges in antenna miniaturization and propagation
+          at higher frequencies.
+        </li>
+        <li>
+          Studied the integration of AI/ML for adaptive and high-throughput
+          wireless networks.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Course:</strong> 5G Fundamentals and Architectures
+      </p>
+    </div>
+
+    <div id="project-bch" class="project">
+      <h3>BCH Encoder & Decoder Simulation</h3>
+
+      <p>
+        Implemented a BCH encoder and decoder (15,7) using NumPy and simulated
+        transmission over a noisy channel.
+      </p>
+
+      <ul>
+        <li>
+          Simulated bit flips over a noisy channel.
+        </li>
+        <li>
+          Evaluated bit error rate and basic error correction performance.
+        </li>
+        <li>
+          Used syndrome decoding for error correction.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Tools:</strong> Python, NumPy
+      </p>
+    </div>
+
+    <div id="project-price" class="project">
+      <h3>Used Car Price Prediction</h3>
+
+      <p>
+        Developed a machine learning regression model to predict used car prices
+        based on vehicle features.
+      </p>
+
+      <ul>
+        <li>
+          Used features such as year, mileage, make, model, and engine power.
+        </li>
+        <li>
+          Performed exploratory data analysis and model evaluation.
+        </li>
+        <li>
+          Reported performance using R² score and mean absolute error.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Tools:</strong> Python, pandas, scikit-learn
+      </p>
+    </div>
+
+    <div id="project-bluetooth-car" class="project">
+      <h3>Bluetooth Controlled Car</h3>
+
+      <p>
+        Developed a mobile-controlled vehicle using the Intel 8051 microcontroller
+        and Bluetooth communication for wireless navigation and control.
+      </p>
+
+      <p>
+        <strong>Course:</strong> Microprocessor Lab
+      </p>
+    </div>
+
+    <div id="project-audio-switch" class="project">
+      <h3>Audio Triggered Light Switch</h3>
+
+      <p>
+        Designed and implemented a sound-activated light control circuit on a
+        breadboard using IC 4017 and op-amp 741.
+      </p>
+
+      <p>
+        <strong>Course:</strong> Communication Networks Lab
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Ayush Shukla.</p>
+  </footer>
+
+</body>
+</html>
