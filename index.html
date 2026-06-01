@@ -193,15 +193,19 @@
   </section>
 
   <!-- Experience -->
-  <section id="experience">
-    <h2>Featured Experience</h2>
-
+  <section id="research-experience">
+    <h2>Research Experience</h2>
+  
     <div class="exp-block">
-      <div class="exp-icon">ID</div>
-
-      <h3>Department of ECE, IIIT Delhi</h3>
-      <h4>Research Associate | May 2025 – Present</h4>
-
+      <div class="experience-header">
+        <img src="assets/iiitd_logo.png" alt="IIIT Delhi logo" class="org-logo" />
+  
+        <div>
+          <h3>Department of ECE, IIIT Delhi</h3>
+          <h4>Research Associate | May 2025 – Present</h4>
+        </div>
+      </div>
+  
       <ul>
         <li>
           Working on 77 GHz FMCW radar-based foreign object debris detection for
@@ -214,7 +218,8 @@
         </li>
         <li>
           Proposed a low-rank and sparse decomposition approach solved using ADMM
-          to separate structured ground clutter from sparse FOD targets.
+          to separate structured ground clutter from sparse FOD targets in
+          range-angle space.
         </li>
         <li>
           Conducted RF anechoic chamber and real-world runway measurements to
@@ -222,59 +227,73 @@
         </li>
         <li>
           Extending the sparse optimization framework toward learning-based
-          unfolded methods.
+          unfolded methods for more robust radar sensing.
         </li>
       </ul>
-
-      <div class="link-row">
+  
+      <p>
         <a href="#project-fod">View related project</a>
-        <a href="#publications">View publication</a>
-      </div>
+        |
+        <a href="#publications">View related publication</a>
+      </p>
     </div>
-
+  
     <div class="exp-block">
-      <div class="exp-icon">TG</div>
-
-      <h3>Institute of Electronics, Graz University of Technology, Austria</h3>
-      <h4>Scientific Project Member | Jan 2024 – Jun 2024</h4>
-
+      <div class="experience-header">
+        <img src="assets/tugraz_logo.png" alt="TU Graz logo" class="org-logo" />
+  
+        <div>
+          <h3>Institute of Electronics, Graz University of Technology, Austria</h3>
+          <h4>Scientific Project Member | Jan 2024 – Jun 2024</h4>
+        </div>
+      </div>
+  
       <ul>
         <li>
-          Developed Gaussian Process-based surrogate models for EMC analysis of
-          power electronic circuits.
+          Developed Gaussian Process-based surrogate models for electromagnetic
+          compatibility analysis of power electronic circuits.
         </li>
         <li>
-          Reduced normalized prediction error from 5.25% to 3.39% and cut training
-          time by 33% through algorithm enhancements.
+          Reduced normalized prediction error from 5.25% to 3.39% and reduced
+          training time by 33% through algorithm enhancements.
         </li>
         <li>
-          Benchmarked ANSYS OptisLang DIM-GP workflows, achieving high-fidelity
-          modeling in resonance-heavy regions and improved computational efficiency.
+          Investigated the impact of hyperparameter tuning and sampling strategies
+          on model convergence and performance.
+        </li>
+        <li>
+          Benchmarked ANSYS OptisLang DIM-GP workflows for high-fidelity modelling
+          in resonance-heavy regions.
         </li>
         <li>
           Implemented Feature Selective Validation in Python using amplitude,
           feature, and global difference measures across 6000-point signals.
         </li>
       </ul>
-
-      <div class="link-row">
+  
+      <p>
         <a href="#project-emc">View related project</a>
-      </div>
+      </p>
     </div>
-
+  
     <div class="exp-block">
-      <div class="exp-icon">IS</div>
-
-      <h3>Indian Institute of Science, Bangalore</h3>
-      <h4>Research Intern, NICE Lab | Jun 2023 – Jul 2023</h4>
-
+      <div class="experience-header">
+        <img src="assets/iisc_logo.png" alt="IISc Bangalore logo" class="org-logo" />
+  
+        <div>
+          <h3>Indian Institute of Science, Bangalore</h3>
+          <h4>Research Intern, NICE Lab | Jun 2023 – Jul 2023</h4>
+        </div>
+      </div>
+  
       <ul>
         <li>
           Applied multi-objective optimization and uncertainty quantification to
-          analyze trade-offs between model accuracy and training cost.
+          analyze trade-offs between model accuracy and training cost for EMI filter
+          insertion loss prediction.
         </li>
         <li>
-          Developed surrogate models using Kriging and Polynomial Chaos Expansion
+          Developed surrogate models based on Kriging and Polynomial Chaos Expansion
           in UQLab with 15k+ training samples.
         </li>
         <li>
@@ -282,22 +301,31 @@
           62 frequency samples.
         </li>
         <li>
-          Contributed to a first-author paper accepted at IEEE EDAPS 2023.
+          Implemented Python-MATLAB and Python-CST interfaces for validating machine
+          learning model results.
+        </li>
+        <li>
+          This work resulted in a first-author paper accepted at IEEE EDAPS 2023.
         </li>
       </ul>
-
-      <div class="link-row">
+  
+      <p>
         <a href="#project-emc">View related project</a>
-        <a href="#publications">View publication</a>
-      </div>
+        |
+        <a href="#publications">View related publication</a>
+      </p>
     </div>
-
+  
     <div class="exp-block">
-      <div class="exp-icon">MM</div>
-
-      <h3>Manipal Institute of Technology, Manipal</h3>
-      <h4>Research Intern | Feb 2023 – Jun 2023</h4>
-
+      <div class="experience-header">
+        <img src="assets/mit_logo.png" alt="Manipal Institute of Technology logo" class="org-logo" />
+  
+        <div>
+          <h3>Manipal Institute of Technology, Manipal</h3>
+          <h4>Research Intern | Feb 2023 – Jun 2023</h4>
+        </div>
+      </div>
+  
       <ul>
         <li>
           Designed and simulated a flexible ultra-wideband antenna operating from
@@ -307,15 +335,20 @@
           Achieved a peak gain of 4.84 dB at 7.75 GHz using ANSYS HFSS.
         </li>
         <li>
-          Validated mechanical robustness through bending simulations with
-          negligible impact on S11 and antenna gain.
+          Enhanced bandwidth and radiation characteristics through parametric
+          analysis and ground-plane modifications.
+        </li>
+        <li>
+          Validated mechanical robustness through bending simulations with negligible
+          impact on S11 and antenna gain.
         </li>
       </ul>
-
-      <div class="link-row">
+  
+      <p>
         <a href="#project-antenna">View related project</a>
-      </div>
+      </p>
     </div>
+  </section>
 
     <div class="exp-block">
       <div class="exp-icon">RB</div>
