@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Research portfolio of Ayush Shukla, focused on radar signal processing, mmWave sensing, applied electromagnetics, EMC/EMI modeling, sparse reconstruction, and unfolded learning."
+    content="Personal research website of Ayush Shukla, focused on radar signal processing, mmWave sensing, applied electromagnetics, and sparse reconstruction."
   />
 
   <link rel="stylesheet" href="style.css" />
@@ -22,7 +22,7 @@
 
       <div class="profile-photo-container">
         <img
-          src="Assets/profile_pic_Ayush.JPEG"
+          src="assets/profile_pic_ayush.jpeg"
           alt="Ayush Shukla"
           class="profile-photo"
         />
@@ -38,25 +38,12 @@
         <p class="header-subtitle">
           Research Associate, Department of ECE, IIIT Delhi
         </p>
+
         <div class="header-buttons">
           <a href="assets/Ayush_Shukla_CV.pdf" target="_blank">Download CV</a>
-          <a href="#research-experience">Research Experience</a>
-          <a href="#work-experience">Work Experience</a>
-          <a href="#publications">Publications</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <div class="header-buttons">
-          <a href="Assets/CV_ShuklaAyush.pdf" target="_blank" class="btn btn-red">
-            Download CV
-          </a>
-
-          <a href="#publications" class="btn btn-light">
-            Publications
-          </a>
-
-          <a href="#projects" class="btn btn-light">
-            Projects
-          </a>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Projects</a>
         </div>
       </div>
 
@@ -65,14 +52,12 @@
 
   <!-- Navigation -->
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#publications">Publications</a>
-    <a href="#research-experience">Research Experience</a>
-    <a href="#work-experience">Work Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="experience.html">Experience</a>
+    <a href="publications.html">Publications</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -80,482 +65,103 @@
   <section id="about">
     <h2>About Me</h2>
 
-    <div class="card">
-      <p>
-        Hi! I am Ayush, I am a Research Associate in the Department of Electronics and Communication
-        Engineering at IIIT Delhi. Currently I am working on 77 GHz frequency-modulated
-        continuous-wave radar-based foreign object debris detection for airport
-        runway safety, in collaboration with the Indian Air Force, the air arm of the Indian Armed Forces.
-      </p>
+    <p>
+      I am a Research Associate in the Department of Electronics and Communication
+      Engineering at IIIT Delhi, working on millimeter-wave radar-based foreign
+      object debris detection for airport runway safety.
+    </p>
 
-      <p>
-        My current work focuses on low-RCS target detection in ground clutter using
-        radar signal processing, BPM-MIMO, range-angle processing, background
-        subtraction, radar calibration, low-rank and sparse reconstruction, ADMM,
-        and OS-CFAR detection.
-      </p>
+    <p>
+      My research interests include radar signal processing, mmWave radar sensing,
+      target detection and estimation, clutter suppression, sparse reconstruction,
+      computational electromagnetics, antennas, RF systems, surrogate modelling,
+      and unfolded learning.
+    </p>
 
-      <p>
-        I received my B.Tech in Electronics and Communication Engineering from
-        Manipal Institute of Technology in 2024. My bachelor’s thesis focused on
-        designing surrogate models for electromagnetic compatibility analysis of
-        power electronic circuits.
-      </p>
-    </div>
+    <p>
+      I received my B.Tech in Electronics and Communication Engineering from
+      Manipal Institute of Technology in 2024. My bachelor’s thesis focused on
+      designing surrogate models for electromagnetic compatibility analysis of
+      power electronic circuits.
+    </p>
   </section>
 
-  <!-- Research Interests -->
-  <section id="research">
-    <h2>Research Interests</h2>
+  <!-- Featured Experience -->
+  <section id="featured-experience">
+    <h2>Featured Experience</h2>
 
-    <div class="project">
-      <h3>Radar Signal Processing and mmWave Sensing</h3>
-      <p>
-        FMCW radar, MIMO radar, range-angle processing, target detection and
-        estimation, radar calibration, detection map generation, and low-RCS target
-        detection.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>Sparse Reconstruction and Clutter Suppression</h3>
-      <p>
-        Low-rank and sparse decomposition, ADMM-based optimization, structured
-        ground clutter separation, sparse target recovery, and OS-CFAR detection.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>Computational Electromagnetics and EMC/EMI</h3>
-      <p>
-        Surrogate modelling, Gaussian Processes, Kriging, uncertainty quantification,
-        Feature Selective Validation, and EMC-aware modelling of power electronic
-        circuits.
-      </p>
-    </div>
-  
-    <div class="project">
-      <h3>Antennas and RF Systems</h3>
-      <p>
-        UWB antenna design, wearable antennas, RF sensing systems, ANSYS HFSS-based
-        electromagnetic simulation, and SAR-aware design.
-      </p>
-    </div>
-  </section>
-
-  <!-- Publications -->
-  <section id="publications">
-    <h2>Publications</h2>
-
-    <div class="card publication-card">
-      <h3>
-        Low Rank and Sparsity Based Foreign Object Debris Detection with
-        Millimeter Wave Radar
-      </h3>
-
-      <p>
-        <strong>A. Shukla, S. S. Ram</strong><br />
-        IEEE Radar Conference 2026, Phoenix, Arizona, USA, 2026
-      </p>
-
-      <p>
-        Proposed a low-rank and sparse decomposition framework for detecting
-        low-RCS foreign object debris using 77 GHz FMCW radar measurements.
-      </p>
-
-      <div class="link-row">
-        <a href="#project-fod">Project Details</a>
-        <a href="Assets/RadarCon2026.pdf" target="_blank">Paper PDF</a>
-      </div>
-    </div>
-
-    <div class="card publication-card">
-      <h3>
-        Comparison of Surrogate Modelling Approaches for Estimation of EMI Filter
-        Insertion Loss
-      </h3>
-
-      <p>
-        <strong>A. Shukla, S. S. Nukala, Akash, D. K. Singh, D. Gope, J. Hansen</strong><br />
-        IEEE EDAPS 2023, Mauritius, 2023
-      </p>
-
-      <p>
-        Compared Kriging, Polynomial Chaos Expansion, Polynomial Chaos Kriging,
-        and wideband Kriging for EMI filter insertion loss prediction.
-      </p>
-
-      <div class="link-row">
-        <a href="#project-emc">Project Details</a>
-        <a href="Assets/IISc_Paper.pdf" target="_blank">Paper PDF</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section id="research-experience">
-    <h2>Research Experience</h2>
-  
     <div class="exp-block">
       <div class="experience-header">
         <img src="assets/iiitd_logo.png" alt="IIIT Delhi logo" class="org-logo" />
-  
+
         <div>
-          <h3>Department of ECE, IIIT Delhi</h3>
-          <h4>Research Associate | May 2025 – Present</h4>
+          <h3>Research Associate, IIIT Delhi</h3>
+          <h4>May 2025 – Present</h4>
         </div>
       </div>
-  
-      <ul>
-        <li>
-          Working on 77 GHz FMCW radar-based foreign object debris detection for
-          airport runway safety using TI AWR1843BOOST radar platforms.
-        </li>
-        <li>
-          Developed signal-processing pipelines for low-RCS target detection in
-          ground clutter, including BPM-MIMO, range-angle processing, background
-          subtraction, radar calibration, and detection map generation.
-        </li>
-        <li>
-          Proposed a low-rank and sparse decomposition approach solved using ADMM
-          to separate structured ground clutter from sparse FOD targets in
-          range-angle space.
-        </li>
-        <li>
-          Conducted RF anechoic chamber and real-world runway measurements to
-          evaluate detection performance.
-        </li>
-        <li>
-          Extending the sparse optimization framework toward learning-based
-          unfolded methods for more robust radar sensing.
-        </li>
-      </ul>
-  
+
       <p>
-        <a href="#project-fod">View related project</a>
+        Working on 77 GHz FMCW radar-based foreign object debris detection for
+        airport runway safety using TI AWR1843BOOST radar platforms.
+      </p>
+
+      <p>
+        My work involves BPM-MIMO radar processing, range-angle processing,
+        clutter suppression, low-rank and sparse decomposition, ADMM-based
+        optimization, and OS-CFAR detection.
+      </p>
+
+      <p>
+        <a href="experience.html#iiitd">Read more</a>
         |
-        <a href="#publications">View related publication</a>
+        <a href="projects.html#project-fod">View project</a>
+        |
+        <a href="publications.html#radarconf2026">Related publication</a>
       </p>
     </div>
-  
+
     <div class="exp-block">
       <div class="experience-header">
         <img src="assets/tugraz_logo.png" alt="TU Graz logo" class="org-logo" />
-  
+
         <div>
-          <h3>Institute of Electronics, Graz University of Technology, Austria</h3>
-          <h4>Scientific Project Member | Jan 2024 – Jun 2024</h4>
+          <h3>Scientific Project Member, TU Graz</h3>
+          <h4>Jan 2024 – Jun 2024</h4>
         </div>
       </div>
-  
-      <ul>
-        <li>
-          Developed Gaussian Process-based surrogate models for electromagnetic
-          compatibility analysis of power electronic circuits.
-        </li>
-        <li>
-          Reduced normalized prediction error from 5.25% to 3.39% and reduced
-          training time by 33% through algorithm enhancements.
-        </li>
-        <li>
-          Investigated the impact of hyperparameter tuning and sampling strategies
-          on model convergence and performance.
-        </li>
-        <li>
-          Benchmarked ANSYS OptisLang DIM-GP workflows for high-fidelity modelling
-          in resonance-heavy regions.
-        </li>
-        <li>
-          Implemented Feature Selective Validation in Python using amplitude,
-          feature, and global difference measures across 6000-point signals.
-        </li>
-      </ul>
-  
+
       <p>
-        <a href="#project-emc">View related project</a>
+        Worked on Gaussian Process-based surrogate modelling for electromagnetic
+        compatibility analysis of power electronic circuits.
+      </p>
+
+      <p>
+        <a href="experience.html#tugraz">Read more</a>
+        |
+        <a href="projects.html#project-emc">View project</a>
       </p>
     </div>
-  
+
     <div class="exp-block">
       <div class="experience-header">
         <img src="assets/iisc_logo.png" alt="IISc Bangalore logo" class="org-logo" />
-  
+
         <div>
-          <h3>Indian Institute of Science, Bangalore</h3>
-          <h4>Research Intern, NICE Lab | Jun 2023 – Jul 2023</h4>
+          <h3>Research Intern, IISc Bangalore</h3>
+          <h4>Jun 2023 – Jul 2023</h4>
         </div>
       </div>
-  
-      <ul>
-        <li>
-          Applied multi-objective optimization and uncertainty quantification to
-          analyze trade-offs between model accuracy and training cost for EMI filter
-          insertion loss prediction.
-        </li>
-        <li>
-          Developed surrogate models based on Kriging and Polynomial Chaos Expansion
-          in UQLab with 15k+ training samples.
-        </li>
-        <li>
-          Implemented Wideband Kriging in MATLAB, achieving NRMSE ≈ 4.7% across
-          62 frequency samples.
-        </li>
-        <li>
-          Implemented Python-MATLAB and Python-CST interfaces for validating machine
-          learning model results.
-        </li>
-        <li>
-          This work resulted in a first-author paper accepted at IEEE EDAPS 2023.
-        </li>
-      </ul>
-  
+
       <p>
-        <a href="#project-emc">View related project</a>
+        Worked on surrogate modelling, uncertainty quantification, and
+        multi-objective optimization for EMI filter insertion loss prediction.
+      </p>
+
+      <p>
+        <a href="experience.html#iisc">Read more</a>
         |
-        <a href="#publications">View related publication</a>
+        <a href="publications.html#edaps2023">Related publication</a>
       </p>
-    </div>
-  
-    <div class="exp-block">
-      <div class="experience-header">
-        <img src="assets/mit_logo.png" alt="Manipal Institute of Technology logo" class="org-logo" />
-  
-        <div>
-          <h3>Manipal Institute of Technology, Manipal</h3>
-          <h4>Research Intern | Feb 2023 – Jun 2023</h4>
-        </div>
-      </div>
-  
-      <ul>
-        <li>
-          Designed and simulated a flexible ultra-wideband antenna operating from
-          2.48 GHz to 11.91 GHz for wireless body area network applications.
-        </li>
-        <li>
-          Achieved a peak gain of 4.84 dB at 7.75 GHz using ANSYS HFSS.
-        </li>
-        <li>
-          Enhanced bandwidth and radiation characteristics through parametric
-          analysis and ground-plane modifications.
-        </li>
-        <li>
-          Validated mechanical robustness through bending simulations with negligible
-          impact on S11 and antenna gain.
-        </li>
-      </ul>
-  
-      <p>
-        <a href="#project-antenna">View related project</a>
-      </p>
-    </div>
-  </section>
-
-    <div class="exp-block">
-      <div class="exp-icon">RB</div>
-
-      <h3>Robert Bosch, Bangalore</h3>
-      <h4>Assistant Manager | Aug 2024 – Apr 2025</h4>
-
-      <ul>
-        <li>
-          Contributed to Product Strategy and Lifecycle Management for gasoline
-          components in the aftermarket channel.
-        </li>
-        <li>
-          Supported a 2% year-on-year market share increase through data-driven
-          portfolio planning.
-        </li>
-        <li>
-          Coordinated with sales, logistics, and global product teams in Germany
-          for aftermarket product introductions.
-        </li>
-        <li>
-          Participated as the youngest associate in the annual strategic offsite
-          retreat.
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Selected Projects</h2>
-
-    <div id="project-fod" class="project">
-      <h3>Low-Rank and Sparse FOD Detection with 77 GHz mmWave Radar</h3>
-
-      <p>
-        Developed a radar signal processing pipeline for detecting low-RCS foreign
-        object debris on runway-like surfaces using TI AWR1843BOOST FMCW radar data.
-      </p>
-
-      <ul>
-        <li>BPM-MIMO decoding and range-angle processing</li>
-        <li>Background subtraction, radar calibration, and detection map generation</li>
-        <li>Low-rank plus sparse decomposition using ADMM</li>
-        <li>OS-CFAR detection on reconstructed sparse maps</li>
-        <li>Extension toward unfolded learning-based sensing methods</li>
-      </ul>
-
-      <div class="tags">
-        <span>FMCW Radar</span>
-        <span>77 GHz</span>
-        <span>TI AWR1843BOOST</span>
-        <span>ADMM</span>
-        <span>OS-CFAR</span>
-        <span>MATLAB</span>
-      </div>
-
-      <div class="link-row">
-        <a href="#publications">Related publication</a>
-        <a href="#contact">Discuss this work</a>
-      </div>
-    </div>
-
-    <div id="project-emc" class="project">
-      <h3>Surrogate Modelling for EMI Filter Insertion Loss</h3>
-
-      <p>
-        Developed and benchmarked surrogate modeling workflows for estimating EMI
-        filter insertion loss across frequency, with emphasis on model accuracy,
-        training cost, and resonance-heavy regions.
-      </p>
-
-      <ul>
-        <li>Kriging, Gaussian Process, PCE, PCK, and Wideband Kriging comparison</li>
-        <li>15k+ training samples and Pareto-front analysis of accuracy vs cost</li>
-        <li>NRMSE-based model evaluation and Feature Selective Validation</li>
-        <li>Python-MATLAB and Python-CST workflow integration</li>
-        <li>Published as a first-author IEEE EDAPS 2023 paper</li>
-      </ul>
-
-      <div class="tags">
-        <span>EMC/EMI</span>
-        <span>Kriging</span>
-        <span>Gaussian Processes</span>
-        <span>UQLab</span>
-        <span>OptisLang</span>
-        <span>Python</span>
-      </div>
-
-      <div class="link-row">
-        <a href="#publications">Related publication</a>
-        <a href="#contact">Discuss this work</a>
-      </div>
-    </div>
-
-    <div id="project-antenna" class="project">
-      <h3>Flexible UWB Antenna for WBAN Applications</h3>
-
-      <p>
-        Designed and simulated a flexible ultra-wideband antenna for wireless body
-        area network applications using ANSYS HFSS.
-      </p>
-
-      <ul>
-        <li>Operating range: 2.48 GHz to 11.91 GHz</li>
-        <li>Peak gain: 4.84 dB at 7.75 GHz</li>
-        <li>Bandwidth and radiation improvement through parametric analysis</li>
-        <li>Bending simulations for mechanical robustness</li>
-      </ul>
-
-      <div class="tags">
-        <span>ANSYS HFSS</span>
-        <span>UWB Antenna</span>
-        <span>WBAN</span>
-        <span>SAR</span>
-        <span>RF Systems</span>
-      </div>
-    </div>
-
-    <div id="project-5g" class="project">
-      <h3>Review Report – Emerging Trends in 5G and Beyond</h3>
-
-      <p>
-        Co-authored a technical review on the evolution from 5G to 6G, focusing
-        on terahertz communication, intelligent antennas, beamforming, and
-        energy-efficient architectures.
-      </p>
-
-      <div class="tags">
-        <span>5G</span>
-        <span>6G</span>
-        <span>Terahertz</span>
-        <span>Beamforming</span>
-        <span>AI/ML</span>
-      </div>
-    </div>
-
-    <div id="project-bch" class="project">
-      <h3>BCH Encoder & Decoder Simulation</h3>
-
-      <p>
-        Implemented a BCH encoder and decoder (15,7) using NumPy, simulated bit
-        flips over a noisy channel, and evaluated bit error rate and basic error
-        correction performance using syndrome decoding.
-      </p>
-
-      <div class="tags">
-        <span>Python</span>
-        <span>NumPy</span>
-        <span>Error Control Coding</span>
-        <span>BCH Codes</span>
-      </div>
-    </div>
-
-    <div id="project-price" class="project">
-      <h3>Used Car Price Prediction</h3>
-
-      <p>
-        Built a machine learning regression model using Python, pandas, and
-        scikit-learn to predict used car prices based on vehicle features such as
-        year, mileage, make, model, and engine power.
-      </p>
-
-      <div class="tags">
-        <span>Python</span>
-        <span>pandas</span>
-        <span>scikit-learn</span>
-        <span>Regression</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-
-    <div class="skills-grid">
-
-      <div class="mini-card">
-        <h3>Programming & Tools</h3>
-        <p>
-          MATLAB, Python, C++, R, SQL, NumPy, Pandas, PyTorch, MS Office, LaTeX
-        </p>
-      </div>
-
-      <div class="mini-card">
-        <h3>Simulation & RF Software</h3>
-        <p>
-          TI mmWave Studio, ANSYS HFSS, CST Studio, UQLab, OptisLang, LTSpice
-        </p>
-      </div>
-
-      <div class="mini-card">
-        <h3>Radar Platforms</h3>
-        <p>
-          TI AWR1843BOOST, AWR2243BOOST
-        </p>
-      </div>
-
-      <div class="mini-card">
-        <h3>Core Technical Areas</h3>
-        <p>
-          Digital Signal Processing, Microwave Engineering, Wireless Communication,
-          Electromagnetic Waves, Error Control Coding, Linear Algebra, Probability
-        </p>
-      </div>
-
     </div>
   </section>
 
@@ -563,25 +169,41 @@
   <section id="contact">
     <h2>Contact</h2>
 
-    <div class="card contact-card">
-      <p>
-        I am interested in PhD opportunities and research collaborations in radar
-        systems, mmWave sensing, applied electromagnetics, antennas, RF systems,
-        sparse reconstruction, and learning-based sensing.
-      </p>
+    <p>
+      I am interested in PhD opportunities and research collaborations in radar
+      systems, mmWave sensing, applied electromagnetics, RF systems, sparse
+      reconstruction, and learning-based sensing.
+    </p>
 
-      <div class="contact-links">
-        <a href="mailto:ayush2003shukla@gmail.com">Email</a>
-        <a href="https://github.com/ayush03shukla" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/ayushshukla1" target="_blank">LinkedIn</a>
-        <a href="Assets/Ayush_Shukla_CV.pdf" target="_blank">CV</a>
-        <a href="#home">Back to Top</a>
-      </div>
-    </div>
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:ayush2003shukla@gmail.com">ayush2003shukla@gmail.com</a>
+    </p>
+
+    <p>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/ayush03shukla" target="_blank">
+        github.com/ayush03shukla
+      </a>
+    </p>
+
+    <p>
+      <strong>LinkedIn:</strong>
+      <a href="PASTE-YOUR-LINKEDIN-URL-HERE" target="_blank">
+        LinkedIn
+      </a>
+    </p>
+
+    <p>
+      <strong>CV:</strong>
+      <a href="assets/Ayush_Shukla_CV.pdf" target="_blank">
+        Download CV
+      </a>
+    </p>
   </section>
 
   <footer>
-    <p>© 2026 Ayush Shukla. Built with HTML, CSS, and GitHub Pages.</p>
+    <p>© 2026 Ayush Shukla.</p>
   </footer>
 
 </body>
