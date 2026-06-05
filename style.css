@@ -843,3 +843,36 @@ footer {
     transform: scale(1.15);
   }
 }
+/* ---------- Header Button Colors ---------- */
+
+.header-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.top-btn {
+  display: inline-block;
+  padding: 11px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cv-btn {
+  background: #e63946;
+}
+
+.cv-btn:hover {
+  background: #d62839;
+}
+
+.scholar-btn {
+  background: #2563eb;
+}
+
+.scholar-btn:hover {
+  background: #1d4ed8;
+}
