@@ -1,164 +1,200 @@
-<section>
-  <h2>Projects</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <p>
-    This page lists selected academic and engineering projects completed during
-    my undergraduate coursework and independent learning. These projects helped
-    me build foundations in wireless communication, coding theory, embedded
-    systems, machine learning, and circuit implementation.
-  </p>
+  <title>Projects | Ayush Shukla</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  <div id="project-5g" class="project">
-    <h3>Review Report – Emerging Trends in 5G and Beyond</h3>
+<body>
 
+  <header class="page-header">
+    <h1>Projects</h1>
+    <p>Selected research and academic projects</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="experience.html">Experience</a>
+    <a href="publication.html">Publications</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="extra.html">Extracurriculars</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+
+  <section>
+    <h2>Projects</h2>
+  
     <p>
-      <strong>Overview:</strong> Co-authored a technical review on the evolution
-      from 5G to 6G, focusing on terahertz communication, intelligent antennas,
-      beamforming, energy-efficient architectures, and the role of AI/ML in next
-      generation wireless systems.
+      This page lists selected academic and engineering projects completed during
+      my undergraduate coursework and independent learning. These projects helped
+      me build foundations in wireless communication, coding theory, embedded
+      systems, machine learning, and circuit implementation.
     </p>
+  
+    <div id="project-5g" class="project">
+      <h3>Review Report – Emerging Trends in 5G and Beyond</h3>
+  
+      <p>
+        <strong>Overview:</strong> Co-authored a technical review on the evolution
+        from 5G to 6G, focusing on terahertz communication, intelligent antennas,
+        beamforming, energy-efficient architectures, and the role of AI/ML in next
+        generation wireless systems.
+      </p>
+  
+      <p>
+        <strong>My contribution:</strong> Studied antenna and propagation challenges
+        at higher frequencies, including miniaturization, beamforming, and
+        high-frequency link reliability. Also reviewed how AI/ML can support
+        adaptive and high-throughput wireless networks.
+      </p>
+  
+      <p>
+        <strong>Course:</strong> 5G Fundamentals and Architectures
+      </p>
+  
+      <p>
+        <strong>Topics:</strong> 5G, 6G, terahertz communication, intelligent
+        antennas, beamforming, energy-efficient networks, AI/ML for wireless systems.
+      </p>
+  
+      <p>
+        <a href="Assets/5G_Beyond_Report.pdf" target="_blank">View Report</a>
+      </p>
+    </div>
+  
+    <div id="project-bch" class="project">
+      <h3>BCH Encoder & Decoder Simulation</h3>
+  
+      <p>
+        <strong>Overview:</strong> Implemented a BCH encoder and decoder for a
+        (15,7) code using Python and NumPy, and simulated transmission over a noisy
+        channel.
+      </p>
+  
+      <p>
+        <strong>My contribution:</strong> Built the encoding and decoding flow,
+        simulated bit errors, implemented syndrome-based error correction, and
+        evaluated basic bit error rate behaviour under different noise conditions.
+      </p>
+  
+      <p>
+        <strong>Course:</strong> Error Control Coding
+      </p>
+  
+      <p>
+        <strong>Tools / Concepts:</strong> Python, NumPy, BCH codes, syndrome
+        decoding, noisy channel simulation, bit error rate analysis.
+      </p>
+  
+      <p>
+        <a href="Assets/BCH_Encoder_Decoder_Report.pdf" target="_blank">View Report</a>
+        |
+        <a href="#" target="_blank">View Code</a>
+      </p>
+    </div>
+  
+    <div id="project-price" class="project">
+      <h3>Used Car Price Prediction</h3>
+  
+      <p>
+        <strong>Overview:</strong> Developed a regression-based machine learning
+        model to predict used car prices based on vehicle features such as year,
+        mileage, make, model, fuel type, and engine power.
+      </p>
+  
+      <p>
+        <strong>My contribution:</strong> Performed data cleaning, exploratory data
+        analysis, feature preparation, model training, and evaluation using metrics
+        such as R² score and mean absolute error.
+      </p>
+  
+      <p>
+        <strong>Course:</strong> Introduction to Data Analytics
+      </p>
+  
+      <p>
+        <strong>Tools / Concepts:</strong> Python, pandas, scikit-learn, regression,
+        feature engineering, exploratory data analysis, model evaluation.
+      </p>
+  
+      <p>
+        <a href="Assets/Used_Car_Price_Prediction_Report.pdf" target="_blank">View Report</a>
+        |
+        <a href="#" target="_blank">View Code</a>
+      </p>
+    </div>
+  
+    <div id="project-bluetooth-car" class="project">
+      <h3>Bluetooth Controlled Car</h3>
+  
+      <p>
+        <strong>Overview:</strong> Developed a mobile-controlled vehicle using the
+        Intel 8051 microcontroller and Bluetooth communication for wireless
+        navigation and control.
+      </p>
+  
+      <p>
+        <strong>My contribution:</strong> Worked on the embedded control flow,
+        Bluetooth-based command transmission, and basic movement control logic as
+        part of a group project.
+      </p>
+  
+      <p>
+        <strong>Course:</strong> Microprocessor Lab
+      </p>
+  
+      <p>
+        <strong>Tools / Concepts:</strong> Intel 8051 microcontroller, Bluetooth
+        module, embedded systems, motor control, wireless control.
+      </p>
+  
+      <p>
+        <a href="Assets/Bluetooth_Controlled_Car_Report.pdf" target="_blank">View Report</a>
+        |
+        <a href="#" target="_blank">Watch Demo</a>
+      </p>
+    </div>
+  
+    <div id="project-audio-switch" class="project">
+      <h3>Audio Triggered Light Switch</h3>
+  
+      <p>
+        <strong>Overview:</strong> Designed and implemented a sound-activated light
+        control circuit on a breadboard using IC 4017 and op-amp 741.
+      </p>
+  
+      <p>
+        <strong>My contribution:</strong> Built and tested the circuit response to
+        audio triggers, using the op-amp stage for signal conditioning and the IC
+        4017 for switching behaviour.
+      </p>
+  
+      <p>
+        <strong>Course:</strong> Communication Networks Lab
+      </p>
+  
+      <p>
+        <strong>Tools / Concepts:</strong> IC 4017, op-amp 741, breadboard
+        prototyping, audio-triggered switching, analog circuit testing.
+      </p>
+  
+      <p>
+        <a href="Assets/Audio_Triggered_Light_Switch_Report.pdf" target="_blank">View Report</a>
+        |
+        <a href="#" target="_blank">Watch Demo</a>
+      </p>
+    </div>
+  </section>
 
-    <p>
-      <strong>My contribution:</strong> Studied antenna and propagation challenges
-      at higher frequencies, including miniaturization, beamforming, and
-      high-frequency link reliability. Also reviewed how AI/ML can support
-      adaptive and high-throughput wireless networks.
-    </p>
+  <footer>
+    <p>© 2026 Ayush Shukla.</p>
+  </footer>
 
-    <p>
-      <strong>Course:</strong> 5G Fundamentals and Architectures
-    </p>
-
-    <p>
-      <strong>Topics:</strong> 5G, 6G, terahertz communication, intelligent
-      antennas, beamforming, energy-efficient networks, AI/ML for wireless systems.
-    </p>
-
-    <p>
-      <a href="Assets/5G_Beyond_Report.pdf" target="_blank">View Report</a>
-    </p>
-  </div>
-
-  <div id="project-bch" class="project">
-    <h3>BCH Encoder & Decoder Simulation</h3>
-
-    <p>
-      <strong>Overview:</strong> Implemented a BCH encoder and decoder for a
-      (15,7) code using Python and NumPy, and simulated transmission over a noisy
-      channel.
-    </p>
-
-    <p>
-      <strong>My contribution:</strong> Built the encoding and decoding flow,
-      simulated bit errors, implemented syndrome-based error correction, and
-      evaluated basic bit error rate behaviour under different noise conditions.
-    </p>
-
-    <p>
-      <strong>Course:</strong> Error Control Coding
-    </p>
-
-    <p>
-      <strong>Tools / Concepts:</strong> Python, NumPy, BCH codes, syndrome
-      decoding, noisy channel simulation, bit error rate analysis.
-    </p>
-
-    <p>
-      <a href="Assets/BCH_Encoder_Decoder_Report.pdf" target="_blank">View Report</a>
-      |
-      <a href="#" target="_blank">View Code</a>
-    </p>
-  </div>
-
-  <div id="project-price" class="project">
-    <h3>Used Car Price Prediction</h3>
-
-    <p>
-      <strong>Overview:</strong> Developed a regression-based machine learning
-      model to predict used car prices based on vehicle features such as year,
-      mileage, make, model, fuel type, and engine power.
-    </p>
-
-    <p>
-      <strong>My contribution:</strong> Performed data cleaning, exploratory data
-      analysis, feature preparation, model training, and evaluation using metrics
-      such as R² score and mean absolute error.
-    </p>
-
-    <p>
-      <strong>Course:</strong> Introduction to Data Analytics
-    </p>
-
-    <p>
-      <strong>Tools / Concepts:</strong> Python, pandas, scikit-learn, regression,
-      feature engineering, exploratory data analysis, model evaluation.
-    </p>
-
-    <p>
-      <a href="Assets/Used_Car_Price_Prediction_Report.pdf" target="_blank">View Report</a>
-      |
-      <a href="#" target="_blank">View Code</a>
-    </p>
-  </div>
-
-  <div id="project-bluetooth-car" class="project">
-    <h3>Bluetooth Controlled Car</h3>
-
-    <p>
-      <strong>Overview:</strong> Developed a mobile-controlled vehicle using the
-      Intel 8051 microcontroller and Bluetooth communication for wireless
-      navigation and control.
-    </p>
-
-    <p>
-      <strong>My contribution:</strong> Worked on the embedded control flow,
-      Bluetooth-based command transmission, and basic movement control logic as
-      part of a group project.
-    </p>
-
-    <p>
-      <strong>Course:</strong> Microprocessor Lab
-    </p>
-
-    <p>
-      <strong>Tools / Concepts:</strong> Intel 8051 microcontroller, Bluetooth
-      module, embedded systems, motor control, wireless control.
-    </p>
-
-    <p>
-      <a href="Assets/Bluetooth_Controlled_Car_Report.pdf" target="_blank">View Report</a>
-      |
-      <a href="#" target="_blank">Watch Demo</a>
-    </p>
-  </div>
-
-  <div id="project-audio-switch" class="project">
-    <h3>Audio Triggered Light Switch</h3>
-
-    <p>
-      <strong>Overview:</strong> Designed and implemented a sound-activated light
-      control circuit on a breadboard using IC 4017 and op-amp 741.
-    </p>
-
-    <p>
-      <strong>My contribution:</strong> Built and tested the circuit response to
-      audio triggers, using the op-amp stage for signal conditioning and the IC
-      4017 for switching behaviour.
-    </p>
-
-    <p>
-      <strong>Course:</strong> Communication Networks Lab
-    </p>
-
-    <p>
-      <strong>Tools / Concepts:</strong> IC 4017, op-amp 741, breadboard
-      prototyping, audio-triggered switching, analog circuit testing.
-    </p>
-
-    <p>
-      <a href="Assets/Audio_Triggered_Light_Switch_Report.pdf" target="_blank">View Report</a>
-      |
-      <a href="#" target="_blank">Watch Demo</a>
-    </p>
-  </div>
-</section>
+</body>
+</html>
