@@ -680,3 +680,16 @@ footer {
 .secondary-pub-btn:hover {
   background: #457b9d;
 }
+/* ---------- Publication Card Hover Effect ---------- */
+
+#radarconf2026,
+#edaps2023 {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 4px solid #457b9d;
+}
+
+#radarconf2026:hover,
+#edaps2023:hover {
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
