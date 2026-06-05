@@ -645,3 +645,38 @@ footer {
   font-size: 18px;
   color: #fff;
 }
+/* ---------- Publication Buttons ---------- */
+
+.publication-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.pub-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.primary-pub-btn {
+  background: #e63946;
+  color: #fff;
+}
+
+.primary-pub-btn:hover {
+  background: #d62839;
+}
+
+.secondary-pub-btn {
+  background: #1d3557;
+  color: #fff;
+}
+
+.secondary-pub-btn:hover {
+  background: #457b9d;
+}
